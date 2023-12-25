@@ -1,4 +1,3 @@
-import React from "react";
 import Board from "./Board";
 import "./App.css";
 
@@ -7,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Board />
+      <Board nrows={2} ncols={2} chanceLightStartsOn={.7}/>
     </div>
   );
 }
